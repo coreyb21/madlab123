@@ -1,0 +1,52 @@
+body {
+    background-color:#2e4053;
+    color:azure;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left:20%;
+    padding-right:20%;
+    font-size:larger
+}
+
+img {
+    max-width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.about {
+    grid-column: 1 / span 12;
+}
+
+.staff {
+    grid-column: 1 / span 5;
+}
+
+.image1 {
+    grid-column: 1 / span 11;
+}
+
+.nav > ul {
+    overflow:hidden;
+    list-style-type: none;
+    background-color: darkorange;
+}
+
+.nav > ul > li {
+    float: right;
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav > ul > li > a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+
+

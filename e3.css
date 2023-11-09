@@ -1,0 +1,19 @@
+body {
+    background-color:#2e4053;
+    color:azure;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left:20%;
+    padding-right:20%;
+    font-size:larger
+}
+
+img {
+    max-width: 65%;
+    height: auto;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+}
